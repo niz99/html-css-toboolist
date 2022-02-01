@@ -11,15 +11,17 @@ body{
 
 .bg-white{
     background-color: white;
+    height: 80px;
 }
 
-#logo{
+#title{
     display: inline-block;
     font-size: 50px;
+    line-height: 80px;
 }
 
 .first-main-size{
-    width: 80%;
+    width: 70%;
     margin: 30px auto 0;
     height: 50px;
     border-top-right-radius: 5px;
@@ -46,7 +48,7 @@ body{
 }
 
 .second-main-size{
-    width: 80%;
+    width: 70%;
     margin: 5px auto;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
