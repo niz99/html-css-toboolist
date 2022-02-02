@@ -9,15 +9,21 @@ body{
     font-family: sans-serif;
 }
 
-.bg-white{
+header{
     background-color: white;
-    height: 80px;
+    height: 100px;
+    padding: 20px 10px;
+}
+
+#logo{
+    height: 100%;
+    vertical-align: middle;
 }
 
 #title{
     display: inline-block;
     font-size: 50px;
-    line-height: 80px;
+    vertical-align: middle;
 }
 
 .first-main-size{
