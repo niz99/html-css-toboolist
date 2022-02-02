@@ -79,22 +79,30 @@ section{
     margin-bottom: 25px;
 }
 
-.check:after{
+.check::before{
     content: "\2713";
-    color: green;
-    border: 1px solid green;
+    color: #2cc6ab;
+    border: 1px solid #2cc6ab;
     border-radius: 50%;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
 }
 
-.mark::after{
+.mark::before{
     content: "\10102";
     color: red;
     border: 1px solid red;
     border-radius: 50%;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
 }
 
 .editorial{
@@ -138,7 +146,3 @@ section{
     border-radius: 12px;
     color: white;
 }
-
-/* .m-bottom{
-    padding-bottom: 50px;
-} */
